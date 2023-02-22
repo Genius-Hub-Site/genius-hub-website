@@ -75,11 +75,10 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+                    <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
                     <a href="contact.html" class="nav-item nav-link active">Contact</a>
                 </div>
-                <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                 <a href="team.html" class="btn btn-primary py-2 px-4 ms-3">Global Strategic Team</a>
             </div>
         </nav>
@@ -141,22 +140,34 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form>
+                    <form  id="contact-form-2">
                         <div class="row g-3">
                             <div class="col-md-6">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" id="name" name="name" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;" required>
                             </div>
                             <div class="col-md-6">
-                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" id="email" name="emai" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;" required>
                             </div>
                             <div class="col-12">
-                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                                <select class="form-select bg-light border-0" id="job" name="job" style="height: 55px;" required>
+                                    <option selected>Job</option>
+                                    <option value="Accountant">Accountant</option>
+                                    <option value="Human Resource">Human Resource</option>
+                                    <option value="Audit Manager">Audit manager</option>
+                                    <option value="Secretary">Secretary</option>
+                                </select>
+                            </div> 
+                            <div class="col-12">
+                                <input type="text" id="phone" name="phone" class="form-control bg-light border-0" placeholder="Mobile phone" style="height: 55px;" required>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                                <textarea id="message" name="bio" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message" required></textarea>
                             </div>
+                            <!-- <div class="col-12">
+                                <button id="submit-btn" class="btn btn-primary w-100 py-3" type="submit">Send</button>
+                            </div> -->
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-dark w-100 py-3" id="submit-btn-two" type="submit">Send</button>
                             </div>
                         </div>
                     </form>
@@ -308,7 +319,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/mail.js"></script>
+    <script src="js/mail_two.js"></script>
 </body>
 
 </html>
