@@ -76,9 +76,13 @@
 .quote::before {
     content: open-quote;
     font-size: 2.5em;
-    display: inline-block;
   }
-  
+
+  .quote::after {
+    content: close-quote;
+    font-size: 1.9;
+  }
+
 
 /*** Heading ***/
 h1,
@@ -465,7 +469,11 @@ h6,
     margin-top: 0;
     transition: .3s .15s;
 }
-  
+
+.team-img {
+    height: 300;
+    overflow: hidden;
+}
 .team-item .team-img img,
 .blog-item .blog-img img  {
     transition: .5s;
