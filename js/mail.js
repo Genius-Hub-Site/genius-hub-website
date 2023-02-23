@@ -73,7 +73,7 @@
 // })();
 
 (function() {
-  emailjs.init("QUhA5Rtm9FlJ9u1WI");
+  emailjs.init("6IGRVJFP6tYTyLdD5");
 
   const form = document.getElementById("contact-form");
   const submitButton = document.getElementById("submit-btn");
@@ -86,7 +86,7 @@
     submitButton.innerHTML = '<span class="submit-spinner"></span>Sending...';
 
     // Send the form data via EmailJS
-    emailjs.sendForm("service_vzwdgjy", "template_buvs3sb", this)
+    emailjs.sendForm("service_t1o5hup", "template_ge3tslc", this)
       .then(function(response) {
         console.log("SUCCESS!", response.status, response.text);
         alert("Your message has been sent successfully.");
