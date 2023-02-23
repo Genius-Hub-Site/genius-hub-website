@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+/********** CSS **********/
 :root {
     --primary: #168bda;
     --secondary: #0dc43d;
@@ -75,7 +75,7 @@
 /** Quotes **/
 .quote::before {
     content: open-quote;
-    font-size: 3.9em;
+    font-size: 3.1em;
     display: inline-block;
   }
   
