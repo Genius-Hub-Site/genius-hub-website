@@ -78,11 +78,6 @@
     font-size: 2.5em;
   }
 
-  .quote::after {
-    content: close-quote;
-    font-size: 2.5em;
-  }
-
 
 /*** Heading ***/
 h1,
