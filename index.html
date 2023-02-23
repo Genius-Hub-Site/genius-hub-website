@@ -80,9 +80,9 @@
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="#about-us" class="nav-item nav-link">About</a>
                     <a href="#services" class="nav-item nav-link">Services</a>
+                    <a href="#blog" class="nav-item nav-link">Blog</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <!-- <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton> -->
                 <a href="team.html" class="btn btn-primary py-2 px-4 ms-3" style="background-color: #0dc43d;">Global Strategy Team</a>
             </div>
         </nav>
@@ -95,7 +95,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">You Have a Talent ?</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Let us find you the best place to apply your Skils</h1>
-                            <a href="contact.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="background-color: #0dc43d;">Contact Us</a>
+                            <a href="#job-request" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" style="background-color: #0dc43d;">Contact Us</a>
                             <!-- <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a> -->
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">It's what we do!</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">You Dream, We execute</h1>
                             <!-- <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a> -->
-                            <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight" >Contact Us</a>
+                            <a href="#job-request" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight" >Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
                     <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;" style="background-color: #0dc43d;">
+                        <div class="d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px; background-color: #0dc43d;">
                             <i class="fa fa-check text-white"></i>
                         </div>
                         <div class="ps-4">
@@ -153,8 +153,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;background-color: #0dc43d;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                    <div class="shadow d-flex align-items-center justify-content-center p-4" style="height: 150px; background-color: #0dc43d;">
+                        <div class="d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
                             <i class="fa fa-award text-primary"></i>
                         </div>
                         <div class="ps-4">
@@ -454,7 +454,7 @@
 
 
    <!-- Job Request start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="job-request" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
@@ -585,69 +585,123 @@
     </div> -->
     <!-- Testimonial End -->
 
-    <!-- Blog Start -->
-    <!-- <div id="blog" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
-                <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
+                <h5 class="fw-bold text-primary text-uppercase"></h5>
+                <h1 class="mb-0">Support Team</h1>
             </div>
-            <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+            <div class="row g-5 owl-carousel wow fadeInUp mx-auto" data-wow-delay="0.6s">
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/hr.jpg" alt="">
                         </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Aron Ojee Geoffrey </h4>
+                            <h5 class="text-uppercase m-0">Human Resource</h5>
+                            <p class="quote text-primary">I am convinced that nothing we do is more important than hiring and developing people.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="img/lisa.jpg" alt="">
                         </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="blog-item bg-light rounded overflow-hidden">
-                        <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Web Design</a>
-                        </div>
-                        <div class="p-4">
-                            <div class="d-flex mb-3">
-                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
-                                <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
-                            </div>
-                            <h4 class="mb-3">How to build a website</h4>
-                            <p>Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
-                            <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">Lisa Nabilah</h4>
+                            <h5 class="text-uppercase m-0">FRONT DESK MANAGER</h5>
+                            <p class="quote text-primary">You get one chance to make a good first impression, and yours may be in the hands of the receptionist.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div> -->
-    <!-- Blog Start -->
+    </div>
+    <!-- Team End -->
+    <div id="blog" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
+                <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
+            </div>
+            <div class="row g-5 mx-auto">
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Business</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>Fayed Kiggundu</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>Wed, Feb 22, 2023 at 11:39</small>
+                            </div>
+                            <h4 class="mb-3">Choosing the right business</h4>
+                            <p>
+                                It's a known fact that money was ranked the most sought-aspect in life,according to the
+                                International Consensus of Statistics back in 2022 , beating both happiness and poverty.
+                                With that in mind,it's absolutely ideal ti know what to do with your attained money.Keeping it
+                                safe is by far the first step advisable when undertaking monetary safety measures.
+                                This is where banks and other financial institutions come in hand,to give professional
+                                consultation on cash-management.
+                                Various companies offer these services but it's however an individual's task to find the best
+                                one, because whoever you choose to trust will determine how well you preserve that money
+                                you've sought out.</p>
+                            <!-- <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                            <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">Social</a>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex mb-3">
+                                <small class="me-3"><i class="far fa-user text-primary me-2"></i>Fayed Kiggundu</small>
+                                <small><i class="far fa-calendar-alt text-primary me-2"></i>Wed, Feb 22, 2023 at 11:39</small>
+                            </div>
+                            <h4 class="mb-3">A better world</h4>
+                            <p>With the whole world having to combat problems such as climate change, war , poverty , and
+                                other bizarre social-troubles, it's important to ensure that we try to surround yourself with
+                                positivity and ecstasy.
+                                It's crucial to improve our relations with other people.
+                                After all, if aliens were to invade Earth,it would be up to the whole world to come together
+                                regardless of previous hatred, misunderstandings and enmity.
+                                Each time you are near a fellow human being, say hello,
+                                say yes more often (of course with caution) and learn to be more open because such insecurity
+                                creates a dark cloud of limitation that hinders opportunities which hinder change and I'm turn
+                                prevent progress.
+                                Just to quote Justin Bieber's song,'Let it go,' he says that you should let go of things you cannot
+                                control.</p>
+                            <!-- <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="blog-item bg-light rounded overflow-hidden">
+                      <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                        <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="#">Web Design</a>
+                      </div>
+                      <div class="p-4">
+                        <div class="d-flex mb-3">
+                          <small class="me-3"><i class="far fa-user text-primary me-2"></i>John Doe</small>
+                          <small><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</small>
+                        </div>
+                        <h4 class="mb-3">How to build a website</h4>
+                        <p class="short-description">Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+                        <p class="full-description d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum dui nec ex ultricies, ac rhoncus velit ultrices. Suspendisse et laoreet ante, vel sagittis tortor. Sed sodales justo sit amet ex sodales, sed posuere felis volutpat. Quisque ac venenatis tellus. Aenean volutpat congue dolor id aliquet. Praesent pellentesque gravida tortor, nec placerat nulla venenatis vitae. Fusce condimentum odio vel ipsum ultricies, ac mollis turpis fringilla. Etiam eleifend mi eget ligula pharetra lacinia. Proin tristique urna euismod nunc malesuada, vel consectetur turpis imperdiet. Nullam eu nibh non magna porttitor ultrices a non quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed tristique, nisl a bibendum lacinia, nulla magna lobortis eros, eu sodales sapien nunc non nibh. Vestibulum vulputate metus eget elit congue, ac posuere lectus pharetra.</p>
+                        <a class="text-uppercase read-more" href="#">Read More <i class="bi bi-arrow-right"></i></a>
+                      </div>
+                    </div>
+                  </div> -->        
+            </div>
+        </div>
+    </div> 
 
 
     <!-- Companies -->
@@ -682,7 +736,7 @@
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                         <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>Genius Hub</h1>
+                            <h1 class="m-0 text-white"><img src="img/logo.jpg" alt="Genius Hub Logo" height="50" class="me-2">Genius Hub</h1>
                         </a>
                         <p class="mt-3 mb-4">Sign Up to our News Letter to be the first to receive opportunities</p>
                         <form action="">
@@ -732,7 +786,7 @@
                                 <a class="text-light mb-2" href="#about-us"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
                                 <a class="text-light mb-2" href="services"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
                                 <a class="text-light mb-2" href="team.html"><i class="bi bi-arrow-right text-primary me-2"></i>Global Strategy Team</a>
-                                <!-- <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a> -->
+                                <a class="text-light mb-2" href="#blog"><i class="bi bi-arrow-right text-primary me-2"></i>Blog</a>
                                 <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
@@ -745,7 +799,7 @@
                                 <a class="text-light mb-2" href="about-us"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
                                 <a class="text-light mb-2" href="#services"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
                                 <a class="text-light mb-2" href="team.html"><i class="bi bi-arrow-right text-primary me-2"></i>Global Strategy Team</a>
-                                <!-- <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a> -->
+                                <a class="text-light mb-2" href="#blog"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
                                 <a class="text-light" href="contact.html"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
@@ -786,6 +840,23 @@
   
     <script src="js/main.js"></script>
     <script src="js/mail.js"></script>
+    <script>
+        const readMoreBtns = document.querySelectorAll('.read-more');
+
+        readMoreBtns.forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const article = e.target.closest('.blog-item').querySelector('.article');
+            article.classList.toggle('show');
+            if (article.classList.contains('show')) {
+            e.target.innerText = 'Read Less';
+            } else {
+            e.target.innerText = 'Read More';
+            }
+        });
+        });
+
+    </script>
 </body>
 
 </html>

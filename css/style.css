@@ -72,6 +72,16 @@
     opacity: 1;
 }
 
+/** Quotes **/
+.quote::before {
+    content:open-quote;
+    font-size: 2em;
+}
+
+.quote::after {
+    content: close-quote;
+    font-size: 2em;
+}
 
 /*** Heading ***/
 h1,
@@ -458,7 +468,7 @@ h6,
     margin-top: 0;
     transition: .3s .15s;
 }
-
+  
 .team-item .team-img img,
 .blog-item .blog-img img  {
     transition: .5s;

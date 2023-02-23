@@ -13,7 +13,7 @@
       submitButton.innerHTML = '<span class="submit-spinner"></span>Sending...';
   
       // Send the form data via EmailJS
-      emailjs.sendForm("service_vzwdgjy", "template_buvs3sb", this)
+      emailjs.sendForm("service_vzwdgjy", "template_f8axbj5", this)
         .then(function(response) {
           console.log("SUCCESS!", response.status, response.text);
           alert("Your message has been sent successfully.");
