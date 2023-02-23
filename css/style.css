@@ -75,7 +75,7 @@
 /** Quotes **/
 .quote::before {
     content: open-quote;
-    font-size: 3.9em;
+    font-size: 3.0em;
     display: inline-block;
   }
   
