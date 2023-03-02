@@ -151,7 +151,7 @@
   font-size:3.5em;
   position: absolute;
   left: 5px;
-  top:-20px;
+  top:5px;
 }
 
 .otro-blockquote::after{
