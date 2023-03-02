@@ -137,7 +137,7 @@
   margin:30px auto;
   font-style:italic;
   color: var(--primary);
-  padding:1.2em 5px 1.2em 4.3em;
+  padding:1.2em 5px 1.2em 15px;
   border-left:8px solid var(--primary) ;
   line-height:1.0;
   position: relative;
@@ -151,7 +151,7 @@
   font-size:3.5em;
   position: absolute;
   left: 5px;
-  top:-10px;
+  top:-15px;
 }
 
 .otro-blockquote::after{
