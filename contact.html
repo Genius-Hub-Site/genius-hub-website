@@ -144,7 +144,7 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
-                    <form  id="contact-form-2">
+                    <form  id="contact-form-two">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <input type="text" id="name" name="name_two" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;" required>
@@ -159,7 +159,11 @@
                                     <option value="Human Resource">Human Resource</option>
                                     <option value="Audit Manager">Audit manager</option>
                                     <option value="Secretary">Secretary</option>
+                                    <option value="Other">Other</option>
                                 </select>
+                                <div id="custom-job-field" style="display: none;">                                
+                                    <input type="text" id="custorm-job" name="job_two" class="form-control bg-light border-0" placeholder="Enter specific job:" style="height: 55px;" required>   
+                                </div>
                             </div> 
                             <div class="col-12">
                                 <input type="text" id="phone" name="phone_two" class="form-control bg-light border-0" placeholder="Mobile phone" style="height: 55px;" required>
@@ -320,10 +324,21 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/mail_two.js"></script>
+    <script>
+        document.getElementById("job").addEventListener("change", function() {
+            var customJobField = document.getElementById("custom-job-field");
+            if (this.value == "Other") {
+                customJobField.style.display = "block";
+            } else {
+                customJobField.style.display = "none";
+            }
+        });
+    </script>
 </body>
 
 </html>
