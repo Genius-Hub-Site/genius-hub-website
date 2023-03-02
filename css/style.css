@@ -89,16 +89,16 @@
     justify-content: center;
     margin: 1rem 0;
   } */
-  .blockquote {
+  /* .blockquote {
     padding: 40px 60px 20px;
     position: relative;
 }
 .blockquote p {
     /* font-family: "Utopia-italic"; */
     /* font-size: 35px; */
-    font-weight: 700px;
+    /*font-weight: 700px;
     text-align: center;
-}
+} */
 
 /*blockquote p::before {
     content: "\f095"; 
@@ -109,7 +109,7 @@
   font-size: 180px;
  }*/
 
-.blockquote:before {
+/* .blockquote:before {
   position: absolute;
   font-family: 'FontAwesome';
   top: 0;
@@ -118,9 +118,9 @@
   font-size: 6.0em;
   color: rgba(0,0,0,0.2);
    
-}
+} */
 
-.blockquote::after {
+/* .blockquote::after {
     content: "";
     top: 20px;
     left: 50%;
@@ -129,7 +129,28 @@
     border-bottom: 3px solid #0079bf;
     height: 3px;
     width: 200px;
+} */
+
+blockquote.quote {
+    position: relative; 
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 80%; 
+    color: #484748;
+    margin: 1rem auto 2rem;
 }
+
+blockquote.EN {
+    background:
+    linear-gradient(to right, #039be5 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #039be5 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, #039be5 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #039be5 4px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+
 
 /* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic); */
 .otro-blockquote{
