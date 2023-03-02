@@ -135,13 +135,12 @@
 .otro-blockquote{
   font-size: 0.6em;
   width:90%;
-  margin:30px auto;
-  font-family:Open Sans;
+  margin:5px auto;
   font-style:italic;
   color: var(--primary);
-  padding:1.2em 30px 1.2em 75px;
+  padding:1.2em 5px 1.2em 15px;
   border-left:8px solid var(--primary) ;
-  line-height:1.6;
+  line-height:1.0;
   position: relative;
   /* background:#EDEDED; */
 }
@@ -150,10 +149,10 @@
   font-family:Arial;
   content: "\201C";
   color:var(--primary);
-  font-size:4em;
+  font-size:3.5em;
   position: absolute;
   left: 5px;
-  top:-10px;
+  top:5px;
 }
 
 .otro-blockquote::after{
