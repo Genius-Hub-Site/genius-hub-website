@@ -10,6 +10,14 @@
         }, 1);
     };
     spinner();
+
+    $(document).ready(function() {
+        $('#aboutCarousel').carousel({
+        interval: 3000,
+        dots: false,
+        autoplay:true
+    })
+    });
     
     
     // Initiate the wowjs
@@ -96,13 +104,6 @@
             }
         }
     });
-
-    $(document).ready(function() {
-        $('#aboutCarousel').carousel({
-        autoplay:true,
-        interval: 5000 // Change delay between slides in milliseconds
-        });
-        });
 
     // Vendor carousel
     $('.vendor-carousel').owlCarousel({
