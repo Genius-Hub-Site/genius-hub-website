@@ -1,7 +1,7 @@
 (function() {
     emailjs.init("qexGeuo7xN7wqmIt-")
-    document.getElementById('submit-btn').addEventListener('click', function(event) {
-      event.preventDefault(); // prevent default form submission behavior
+    document.getElementById('submit-btn').addEventListener('submit', function(event) {
+      event.preventDefault(); 
   
       document.getElementById('submit-btn').innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
   

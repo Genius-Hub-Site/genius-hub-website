@@ -1,10 +1,10 @@
 (function() {
     emailjs.init("qexGeuo7xN7wqmIt-")
     // Add event listener to the form submit button
-    document.getElementById('submit-btn-two').addEventListener('click', function(event) {
-      event.preventDefault(); // prevent default form submission behavior
-  
-      // Display a loading spinner on the button
+      document.getElementById('submit-btn-two').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+
+    
       document.getElementById('submit-btn-two').innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending...';
   
       // Get the form data
@@ -44,6 +44,7 @@
   
         // Show an error message
         document.getElementById('submit-btn-two').innerHTML = 'Failed! Try again';
+
         setTimeout(function() {
           document.getElementById('submit-btn-two').innerHTML = 'Submit';
         }, 3000);
